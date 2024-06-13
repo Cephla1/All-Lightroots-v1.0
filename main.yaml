@@ -1,0 +1,256 @@
+- Great Sky Island:
+  - Finish GSI:
+      notes: Get large charge at the end
+- Paraglider:
+  - Fairies:
+      comment: Warp to Fuse
+      movements:
+        - to: [26.07, 1527.75, -1503.60]
+          warp: true
+          exclude: true
+          icon: shrine
+        - to: [-1007.55, 1125.50, -1734.65]
+      icon: fairy
+  - Rockets:
+     comment: Dupe a couple of rockets, fairies and charges
+     coord: [-1212.89, 1112.43, -1585.25]
+     icon: rocket
+  - Steering Sticks:
+     coord: [-1681.62, 138.94, -2067.24]
+     comment: Dupe up to 30 sticks
+     icon: steering
+  - Warp to Ultrahand:
+     movements:
+      - _Warp::Shrine::Ukouh
+     icon: shrine
+  - Talk to Purah:
+     comment: Wing + AF there
+     coord: [-248.72, 126.36, 148.83]
+     icon: purah
+  - Hylian shield:
+     coord: [-154.00, 141.78, 1157.37]
+     icon: shield
+     comment: Dupe 4 shields and set up ZO
+  - _Lightroot::Camobatures
+  - Talk to Hoz:
+     coord: [-334.93, 238.96, 845.94]
+     icon: hoz
+  - Paraglider:
+     coord: [-295.5,140.15747934693536]
+     icon: glider
+- Eventide:
+  - _Lightroot::Nisoij:
+     comment: Go down Hyrule Field Chasm
+  - _Lightroot::Oyimay
+  - _Lightroot::Sinonoyk
+  - _Lightroot::Gadohsi
+  - _Lightroot::Iayusus
+  - _Lightroot::Nihcayam
+  - _Lightroot::Netinet
+  - _Lightroot::Stakijat
+  - _Lightroot::Nuzimak
+  - _Lightroot::Nogukoyk
+  - _Lightroot::Muustust
+  - _Lightroot::Kogoir
+  - _Lightroot::Koradat:
+       movements:
+        - [-1011.48, -512.20, -1925.39]
+        - _Lightroot::Koradat
+  - _Lightroot::Nikohsi
+  - _Lightroot::Amone:
+      comment: Stick clip out and in
+  - _Lightroot::Busus:
+      comment: Stick clip back out
+  - _Lightroot::Muokuij:
+      movements:
+        - [356.93, -372.55, -2355.74]
+        - [563.74, -425.91, -2344.72]
+        - _Lightroot::Muokuij
+  - _Lightroot::Uisihcoj
+  - _Lightroot::Sijotu
+  - _Lightroot::Kohsustu:
+      movements:
+        - [949.13, -397.84, -2926.70]
+        - [633.86, -408.55, -2910.42]
+        - _Lightroot::Kohsustu
+  - _Lightroot::Uuujoj
+  - _Lightroot::Mimufis:
+      movements:
+        - [1893.30, -473.89, -3757.89]
+        - _Lightroot::Mimufis
+  - _Lightroot::Kotimab
+  - _Lightroot::Niiraram:
+      comment: Clip out and in
+- "SE -> NW":
+  - Warp back to Mimufis:
+      movements:
+        - _Warp::Lightroot::Mimufis
+      icon: lightroot
+      color: red
+  - _Lightroot::Yikot:
+       movements:
+        - [2241.36, -517.04, -2888.57]
+        - _Lightroot::Yikot
+  - _Lightroot::Kimnaz
+  - _Lightroot::Kisihayam
+  - _Lightroot::Kimimadena
+  - _Lightroot::Siakij
+  - _Lightroot::Usukaz
+  - _Lightroot::Uogoj
+  - _Lightroot::Migoo
+  - _Lightroot::Takaruk
+  - _Lightroot::Arusakam
+  - _Lightroot::Sohse:
+      movements:
+        - [1503.38, -458.73, -1267.16]
+        - _Lightroot::Sohse
+  - _Lightroot::Korom
+  - _Lightroot::Korakut
+  - _Lightroot::Nojoj
+  - _Lightroot::Ziner
+  - _Lightroot::Apapes:
+      comment: Stick clip out and back in
+  - _Lightroot::Uihcoke:
+      comment: Clip back out
+  - _Lightroot::Kawamit
+  - _Lightroot::Uasnoj:
+      movements:
+        - [2057.82, -365.28, 173.20]
+        - _Lightroot::Uasnoj
+  - _Lightroot::Sekioam
+  - _Lightroot::Kegopa:
+      movements:
+        - [2888.38, -500.82, -148.26]
+        - [3486.86, -590.67, -87.62]
+        - _Lightroot::Kegopa
+  - _Lightroot::Kuzimoy:
+      movements:
+        - [4330.38, -386.97, -143.57]
+        - _Lightroot::Kuzimoy
+  - _Lightroot::Sisinatag:
+      movements:
+        - [4232.13, -614.35, 157.77]
+        - _Lightroot::Sisinatag
+  - _Lightroot::Kawikatisar
+  - _Lightroot::Agihiihcoj
+  - _Lightroot::Anehi:
+      movements:
+        - [3909.78, -590.90, 1198.57]
+        -  _Lightroot::Anehi
+  - _Lightroot::Kawagom:
+      comment: Stick clip
+  - _Lightroot::Uinoj:
+      movements:
+        - [3215.03, -624.72, 625.15]
+        - [3182.72, -630.00, 651.79]
+        - _Lightroot::Uinoj
+  - _Lightroot::Anonisik:
+      movements:
+        - [2659.87, -403.41, 872.39]
+        - _Lightroot::Anonisik
+  - _Lightroot::Nipahsom:
+      movements:
+        - [2806.00, -603.62, 1735.49]
+        - _Lightroot::Nipahsom
+  - _Lightroot::Gedihcayam
+  - _Lightroot::Niuzimod
+  - _Lightroot::Kimimeg:
+      movements:
+        - [3876.89, -470.03, 1909.84]
+        - _Lightroot::Kimimeg
+      comment: Stick clip
+  - _Lightroot::Akinatanis
+  - _Lightroot::Uiihcoj
+  - _Lightroot::Kawisar
+  - _Lightroot::Kuhsagi:
+      comment: Stick clip
+  - _Lightroot::Sikutamak
+  - _Lightroot::Tayamik:
+      movements:
+        - [3229.85, -388.56, 3325.86]
+        - [3067.14, -549.68, 3573.30]
+        - _Lightroot::Tayamik
+  - _Lightroot::Kisomom
+  - _Lightroot::Katijabis
+  - _Lightroot::Mustis
+  - _Lightroot::Cugukaram
+  - _Lightroot::Misisi
+  - _Lightroot::Katoij
+  - _Lightroot::Kayam
+  - _Lightroot::Katenim
+  - _Lightroot::Uukukis
+  - _Lightroot::Eknupup:
+      comment: Stick clip
+  - _Lightroot::Sijnin
+  - _Lightroot::Rikonasum
+  - _Lightroot::Ramobnukas
+  - _Lightroot::Nikakik:
+      comment: Stick clip
+  - _Lightroot::Netamnet
+  - _Lightroot::Uoyoyuik
+  - _Lightroot::Yisuayam
+  - _Lightroot::Muihcoro
+  - _Lightroot::Ikatoayam
+  - _Lightroot::Unazohso
+  - _Lightroot::Narusis
+  - _Lightroot::Muufatur
+  - _Lightroot::Muotue
+  - _Lightroot::Kato
+  - _Lightroot::Nupisoyuat
+  - _Lightroot::Sooaw:
+      movements:
+        - [-4327.31, -412.10, 2096.48]
+        - _Lightroot::Sooaw
+  - _Lightroot::Sikatag:
+      comment: Stick clip
+  - _Lightroot::Worihas
+  - _Lightroot::Aduon:
+      movements:
+        - [-2911.78, -738.83, 2608.73]
+        - _Lightroot::Aduon
+  - _Lightroot::Kawumoro
+  - _Lightroot::Kataki
+  - _Lightroot::Koronui
+  - _Lightroot::Sikurukam
+  - _Lightroot::Tikanur
+  - _Lightroot::Nabahiikat
+  - _Lightroot::Kawakanis
+- Satori Mountain:
+  - Warp to Koro-nui:
+       movements:
+         - _Warp::Lightroot::Koronui
+       icon: lightroot
+       color: yellow
+  - _Lightroot::Sasag
+  - _Lightroot::Kawakarut
+  - _Lightroot::Muzasu:
+      movements:
+        - [-2957.99, -436.95, -777.03]
+        - _Lightroot::Muzasu
+  - _Lightroot::Napanos
+- Gerudo:
+  - Warp to Kawakarut:
+       movements:
+         - _Warp::Lightroot::Kawakarut
+       icon: lightroot
+       color: orange
+  - _Lightroot::Mustuto
+  - _Lightroot::Stamayam
+  - _Lightroot::Rasinaduk
+  - _Lightroot::Gonatoyrim
+  - _Lightroot::Kasari
+  - _Lightroot::Gataharak
+  - _Lightroot::Gonatoyros
+  - _Lightroot::Tatayam
+  - _Lightroot::Mihcihc
+  - _Lightroot::Amakawis
+  - _Lightroot::Sisustom
+  - _Lightroot::Kawatik
+  - _Lightroot::Jadukakar:
+      movements:
+        - [-2102.45, -483.09, -2030.23]
+        - _Lightroot::Jadukakar
+  - _Lightroot::Kimakarut
+  - _Lightroot::Kawiraus
+  - _Lightroot::Umamustor
+
