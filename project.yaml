@@ -1,5 +1,5 @@
 title: All Lightroots (for v1.0)
-version: 1.0.0
+version: 1.0.1
 route: 
   use: ./main.yaml
 config:
@@ -12,6 +12,7 @@ config:
     hoz: https://icons.pistonite.org/icon/misc.double_square.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
     glider: https://cdn.wikimg.net/en/zeldawiki/images/2/24/TotK_Paraglider_Icon.png
     steering: https://cdn.wikimg.net/en/zeldawiki/images/9/93/TotK_Steering_Stick_Icon.png
+    splashfruit: https://static0.hardcoregamerimages.com/wordpress/wp-content/uploads/2023/12/totk-splash-fruit-icon.png
 - use: Pistonight/celer-presets/totk/full.yaml
 - plugins:
   - use: variables
