@@ -1,5 +1,5 @@
 title: All Lightroots (for v1.0)
-version: 1.1.0
+version: 1.1.1
 route: 
   use: ./main.yaml
 config:

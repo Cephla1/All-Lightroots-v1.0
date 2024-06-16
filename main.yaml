@@ -9,17 +9,16 @@
       icon: rocket
       comment: Chest on the river bank
   - Splashfruit:
-      coord: [886.95, 132.67, -197.33]
+      coord: [884.24, 116.18, -543.12]
       icon: splashfruit
-      comment: PR + AF
       notes: Make sure to dupe enough for the death mountain portion of the run
-  - Warp to Ultrahand:
-     movements:
-      - _Warp::Shrine::Ukouh
-     icon: shrine
+  - Rusty Shield:
+      coord: [-26.99, 125.70, -110.11]
+      icon: shield
+      comment: PR + AF
   - Talk to Purah:
-     comment: Wing + AF there
      coord: [-248.72, 126.36, 148.83]
+     comment: PR + AF
      icon: purah
   - Talk to Hoz:
      coord: [-334.93, 238.96, 845.94]
@@ -70,7 +69,7 @@
       icon: steering
       comment: Ascend to the surface, get zonai capsule and dupe [insert no. sticks]
   - _Lightroot::Niiraram
-- East and north of the map:
+- The south:
   - Warp back to Mimufis:
       movements:
         - _Warp::Lightroot::Nuzimak
@@ -143,6 +142,46 @@
   - _Lightroot::Uihcoke
   - _Lightroot::Ziner:
       comment: Clip OoB
+  - _Lightroot::Oyimay:
+      comment: Clip OoB
+  - _Lightroot::Sinonoyk
+  - _Lightroot::Gadohsi
+  - _Lightroot::Kawakanis:
+      comment: Clip OoB
+  - _Lightroot::Nabahiikat
+  - _Lightroot::Tikanur
+  - _Lightroot::Kawumoro
+  - _Lightroot::Sikatag:
+      comment: Clip OoB
+  - _Lightroot::Kataki
+  - _Lightroot::Koronui
+  - _Lightroot::Sikurukam
+  - _Lightroot::Kawakarut
+  - _Lightroot::Sasag
+  - _Lightroot::Mustuto
+  - _Lightroot::Stamayam
+  - _Lightroot::Umamustor
+  - _Lightroot::Rasinaduk
+  - _Lightroot::Gonatoyrim
+  - _Lightroot::Kasari
+  - _Lightroot::Gataharak
+  - _Lightroot::Gonatoyros
+  - _Lightroot::Mihcihc
+  - _Lightroot::Tatayam
+  - _Lightroot::Kimakarut
+  - _Lightroot::Jadukakar
+  - _Lightroot::Kawiraus:
+      movements:
+        - [-2449.29, -478.90, -1950.36]
+        - _Lightroot::Kawiraus
+  - _Lightroot::Muzasu
+  - _Lightroot::Napanos
+- The north:
+  - Warp to Zi-ner:
+      movements:
+        - _Warp::Lightroot::Ziner
+      icon: shrine
+      color: orange
   - _Lightroot::Apapes:
       comment: Clip OoB
   - _Lightroot::Camobatures:
@@ -202,45 +241,5 @@
       comment: Clip OoB
   - _Lightroot::Kawisar
   - _Lightroot::Kuhsagi:
-      comment: Clip OoB
-- Gerudo:
-  - Warp back to Zi-ner:
-      movements:
-        - _Warp::Lightroot::Ziner
-      color: orange
-      icon: lightroot
-  - _Lightroot::Oyimay:
-      comment: Clip OoB
-  - _Lightroot::Sinonoyk
-  - _Lightroot::Gadohsi
-  - _Lightroot::Kawakanis:
-      comment: Clip OoB
-  - _Lightroot::Nabahiikat
-  - _Lightroot::Tikanur
-  - _Lightroot::Kawumoro
-  - _Lightroot::Sikatag:
-      comment: Clip OoB
-  - _Lightroot::Kataki
-  - _Lightroot::Koronui
-  - _Lightroot::Sikurukam
-  - _Lightroot::Kawakarut
-  - _Lightroot::Sasag
-  - _Lightroot::Mustuto
-  - _Lightroot::Stamayam
-  - _Lightroot::Umamustor
-  - _Lightroot::Rasinaduk
-  - _Lightroot::Gonatoyrim
-  - _Lightroot::Kasari
-  - _Lightroot::Gataharak
-  - _Lightroot::Gonatoyros
-  - _Lightroot::Mihcihc
-  - _Lightroot::Tatayam
-  - _Lightroot::Kimakarut
-  - _Lightroot::Jadukakar
-  - _Lightroot::Kawiraus:
-      movements:
-        - [-2449.29, -478.90, -1950.36]
-        - _Lightroot::Kawiraus
-  - _Lightroot::Muzasu
-  - _Lightroot::Napanos
+      comment: Clip OoB  
   
