@@ -48,6 +48,9 @@
        movements:
         - [-1011.48, -512.20, -1925.39]
         - _Lightroot::Koradat
+  - _Lightroot::Kawatik        
+  - _Lightroot::Amakawis
+  - _Lightroot::Sisustom
   - _Lightroot::Nikohsi
   - _Lightroot::Kohsustu:
       movements:
@@ -67,7 +70,7 @@
       icon: steering
       comment: Ascend to the surface, get zonai capsule and dupe [insert no. sticks]
   - _Lightroot::Niiraram
-- Lanayru:
+- East and north of the map:
   - Warp back to Mimufis:
       movements:
         - _Warp::Lightroot::Nuzimak
@@ -109,20 +112,17 @@
         - [3182.72, -630.00, 651.79]
         - [3215.03, -624.72, 625.15]
         - _Lightroot::Kawagom
-  - _Lightroot::Anehi:
-      comment: Clip through the wall (mandatory)
   - _Lightroot::Kegopa:
       movements:
-        - [3909.27, -722.74, 332.57]
-        - _Lightroot::Kegopa
+        - [3365.65, -570.08, 292.59]
+        - [3462.42, -438.77, -117.13]
+        - _Lightroot::Kegopa  
   - _Lightroot::Kuzimoy:
       comment: Clip through the wall
-- North of the map:
-  - Warp back to A-nehi:
-      color: yellow
+  - _Lightroot::Anehi:
       movements:
-        - _Warp::Lightroot::Anehi
-      icon: lightroot
+        - [4331.56, -403.93, -197.08]
+        - _Lightroot::Anehi
   - _Lightroot::Sisinatag 
   - _Lightroot::Kawikatisar
   - _Lightroot::Agihiihcoj
@@ -157,9 +157,10 @@
       movements:
         - [-2884.99, -761.40, 2587.59]
         - _Lightroot::Worihas
+  - _Lightroot::Sooaw
   - _Lightroot::Nupisoyuat:
       movements:
-        - [-3836.77, -646.11, 2916.10]
+        - [-4366.60, -448.44, 2194.43]
         - _Lightroot::Nupisoyuat
   - _Lightroot::Kato
   - _Lightroot::Muotue
@@ -219,8 +220,6 @@
   - _Lightroot::Kawumoro
   - _Lightroot::Sikatag:
       comment: Clip OoB
-  - _Lightroot::Sooaw:
-      comment: Clip OoB
   - _Lightroot::Kataki
   - _Lightroot::Koronui
   - _Lightroot::Sikurukam
@@ -228,23 +227,20 @@
   - _Lightroot::Sasag
   - _Lightroot::Mustuto
   - _Lightroot::Stamayam
+  - _Lightroot::Umamustor
   - _Lightroot::Rasinaduk
   - _Lightroot::Gonatoyrim
   - _Lightroot::Kasari
   - _Lightroot::Gataharak
   - _Lightroot::Gonatoyros
-  - _Lightroot::Tatayam
   - _Lightroot::Mihcihc
-  - _Lightroot::Amakawis
-  - _Lightroot::Sisustom
-  - _Lightroot::Kawatik
-  - _Lightroot::Jadukakar:
-      movements:
-        - [-2086.94, -479.60, -2015.90]
-        - _Lightroot::Jadukakar
+  - _Lightroot::Tatayam
   - _Lightroot::Kimakarut
-  - _Lightroot::Kawiraus
-  - _Lightroot::Umamustor
+  - _Lightroot::Jadukakar
+  - _Lightroot::Kawiraus:
+      movements:
+        - [-2449.29, -478.90, -1950.36]
+        - _Lightroot::Kawiraus
   - _Lightroot::Muzasu
   - _Lightroot::Napanos
   
